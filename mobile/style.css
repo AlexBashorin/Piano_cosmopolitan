@@ -1,0 +1,117 @@
+body {
+    background: url(assets/bg_img.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+}
+
+p, .nothanks{
+    font-style: oblique;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 0;
+}
+
+.nothanks {
+    text-decoration-line: underline;
+}
+
+a {
+    color: #333;
+}
+
+.wrapper {
+    max-width: 750px;
+    max-height: 1334px;
+    margin: 0;
+    padding: 0 16px 0 16px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding-top: 270px;
+    padding-left: 70px;
+    width: 100%;
+}
+
+.cosmo_logo {
+    padding-bottom: 1.5em;
+}
+
+.submit_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 360px;
+    padding-left: 60px;
+    width: 100%;
+
+}
+
+.arrow {
+    margin: 10px 0 10px 0;
+}
+
+.search {
+    width: 750px; 
+    border: 2px solid #f767b4; 
+    min-height: 80px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+input[type="input"] {
+    border: none; 
+    outline: none; 
+    -webkit-appearance: none; 
+    width: 500px; 
+    height: 60px;
+    align-items: middle;
+    font-size: 3em;
+    color: #333;
+}
+
+input[type="submit"] {
+    width: 60px; 
+    height: 40px; 
+    border: none; 
+    background: url(assets/email_icon.png) no-repeat 50% 50%; 
+    padding: 40px;
+
+}
+
+.submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 750px;
+    height: 100px;
+    background-color: #f767b4;
+    border: none;
+}
+
+.text_btn {
+    font-family: Futura;
+    font-style: normal;
+    color: white;
+    border: 3px solid  white;
+    font-weight: 700;
+    font-size: 3.5em;
+    letter-spacing: 0.1em;
+    margin: 0;
+    padding: 10px 30px 10px 30px;
+}
