@@ -1,0 +1,104 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+p, .nothanks{
+    font-style: oblique;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+
+.nothanks {
+    text-decoration-line: underline;
+}
+
+a {
+    color: #333;
+}
+
+.wrapper {
+    max-width: 1920px;
+    max-height: 1250px;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height:130vh;
+    background-color: rgb(255, 255, 255);
+    background-image: url(/assets/background_image.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.title_of_content {
+    margin-bottom: 2em;
+}
+
+.cosmo_logo {
+    margin-top: 300px;
+    margin-bottom: 2em;
+}
+
+.search {
+    width: 700px; 
+    border: 2px solid #f767b4; 
+    min-height: 50px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+input[type="input"] {
+    border: none; 
+    outline: none; 
+    -webkit-appearance: none; 
+    width: 500px; 
+    height: 60px;
+    align-items: middle;
+}
+
+input[type="submit"] {
+    width: 60px; 
+    height: 40px; 
+    border: none; 
+    background: url(assets/email_icon.png) no-repeat 50% 50%; 
+    padding: 0;
+
+}
+
+.submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 780px;
+    height: 100px;
+    background-color: #f767b4;
+    border: none;
+}
+
+.text_btn {
+    font-family: Futura;
+    font-style: normal;
+    color: white;
+    border: 3px solid  white;
+    font-weight: 700;
+    font-size: 3.6em;
+    letter-spacing: 0.1em;
+    margin: 0;
+    padding: 10px 30px 10px 30px;
+}
